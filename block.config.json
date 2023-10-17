@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/bb_test_preview.git",
+    "ssh": "git@github.com:devthalal/bb_test_preview.git",
+    "branch": "block_addTodo"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "addTodo",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "HDWBzA0BijaXodUjMwlMp",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "nPe84D8q4f4jIoVZO5uNq"
+  ]
+}
