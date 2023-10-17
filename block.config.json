@@ -1,0 +1,22 @@
+{
+  "name": "todoInput",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/devthalal/bb_test_preview.git",
+    "ssh": "git@github.com:devthalal/bb_test_preview.git",
+    "branch": "block_todoInput"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "5ZFvEmU46JKms6a-qhvT5",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "nPe84D8q4f4jIoVZO5uNq"
+  ]
+}
