@@ -2,8 +2,8 @@
   "name": "test_preview",
   "type": "package",
   "source": {
-    "https": "",
-    "ssh": "",
+    "https": "https://github.com/devthalal/bb_test_preview.git",
+    "ssh": "git@github.com:devthalal/bb_test_preview.git",
     "branch": "block_test_preview"
   },
   "dependencies": {
